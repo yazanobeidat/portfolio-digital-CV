@@ -1,0 +1,149 @@
+ul {
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 25, 25);
+
+
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: rgb(54, 184, 196);
+}
+
+
+
+
+body {
+
+  margin: 0;
+  background-color: #000;
+}
+
+
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 100px;
+
+
+}
+
+.row :Hover {
+
+  background: rgb(201, 169, 254);
+}
+
+.column {
+  margin: 30px;
+  height: 80%;
+  color: aliceblue;
+
+}
+
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.cen {
+
+  text-align: center;
+  margin-bottom: 5px;
+  color: cadetblue;
+}
+
+
+.ab {
+
+  text-align: center;
+  font: sans-serif;
+  font-size: xx-large;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  color: aliceblue;
+
+}
+
+.lef {
+  font-size: large;
+  margin: 10px;
+}
+
+
+
+h5 {
+
+  padding: 5px;
+}
+.hero-image-container {
+  background-image: url('images/port.jpg');
+  min-height:100vh;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  width: 100%;
+}
+.hero-text {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+
+
+footer {
+  text-align: left;
+  background-color: #141313;
+  color: white;
+  font-size: large;
+
+
+}
+.link .social {
+
+display: inline-block;
+margin: 15px 15px 15px 15px;
+text-align: center;
+
+
+}
+.menu-right {
+  float: right;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 0px;
+
+  }
+
+
+}
+
+@media screen and (max-width: 650px) {
+  ul li {
+    float: none !important;
+  }
+}
